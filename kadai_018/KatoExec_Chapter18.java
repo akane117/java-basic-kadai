@@ -12,8 +12,8 @@ public class KatoExec_Chapter18 {
 	
 	
 	taro.setGivenName();
-	ichiro.setGivenName	();
-	hanako.setGivenName	();
+	ichiro.setGivenName();
+	hanako.setGivenName();
 	
 	taro.execIntroduce();
 	ichiro.execIntroduce();

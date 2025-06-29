@@ -6,14 +6,14 @@ abstract public class Kato_Chapter18 {
 	public String = givenName;//名
 	public String = address;
 	
-	this.familyName = familyName;
-	this.givenName = givenName;
-	this.address = address;
+	this.familyName = "加藤";
+	this.givenName = setGivenName;
+	this.address = "東京都中野区〇×";
 	
 			
 	
-	public void commonIntoroduce() {
-		System.out.println("名前は"+ familyName + givenName +"です");
+	public void commonIntroduce() {
+		System.out.println("名前は"+ familyName + setGivenName +"です");
 		System.out.println("住所は" + address +"です");
 		
 	}
@@ -27,3 +27,4 @@ abstract public class Kato_Chapter18 {
 	}
 
 }
+
